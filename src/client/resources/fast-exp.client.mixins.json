@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "fast.xp.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"ItemInHandRendererMixin",
+		"InventoryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
